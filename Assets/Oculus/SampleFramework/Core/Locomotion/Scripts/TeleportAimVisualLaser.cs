@@ -24,6 +24,7 @@ public class TeleportAimVisualLaser : TeleportSupport
 	private readonly Action<LocomotionTeleport.AimData> _updateAimDataAction;
 	private LineRenderer _lineRenderer;
 	private Vector3[] _linePoints;
+
 	public TeleportAimVisualLaser()
 	{
 		_enterAimStateAction = EnterAimState;
